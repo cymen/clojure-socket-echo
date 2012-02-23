@@ -1,0 +1,10 @@
+# clojure-socket-echo
+
+Demo of using server-socket to create an echo server using code from:
+http://stackoverflow.com/questions/1223352/writing-a-multiplexing-server-in-clojure
+
+## Usage
+
+Do "lien run"
+Then "telnet localhost -p 8080" (or similar) and verify what you type in is
+echoed back!
