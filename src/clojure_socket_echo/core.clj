@@ -1,6 +1,7 @@
-(ns clojure-socket-echo.core)
+(ns chat_server.core
+	(:use server.socket))
 (import '[java.io BufferedReader InputStreamReader OutputStreamWriter])
-(use 'clojure.contrib.server-socket)
+
 (defn echo-server []
   (letfn [(echo [in out]
                     (binding [*in* (BufferedReader. (InputStreamReader. in))
