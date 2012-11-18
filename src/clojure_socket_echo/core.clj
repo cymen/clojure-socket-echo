@@ -1,4 +1,4 @@
-(ns chat_server.core
+(ns clojure-socket-echo.core
 	(:use server.socket))
 (import '[java.io BufferedReader InputStreamReader OutputStreamWriter])
 
